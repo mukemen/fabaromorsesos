@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520">
+  <!-- Icon left -->
+  <g transform="translate(40,40)">
+    <circle cx="160" cy="220" r="100" fill="none" stroke="#22D3EE" stroke-width="40" />
+    <rect x="146" y="206" width="28" height="28" rx="6" ry="6" transform="rotate(45 160 220)" fill="#EF4444"/>
+    <rect x="280" y="164" width="160" height="22" rx="11" fill="#EF4444"/>
+    <rect x="280" y="210" width="160" height="22" rx="11" fill="#EF4444" opacity="0.9"/>
+    <rect x="280" y="256" width="160" height="22" rx="11" fill="#EF4444" opacity="0.8"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="Inter, Poppins, Arial, sans-serif" font-weight="800" fill="#0B1220">
+    <text x="520" y="210" font-size="120" letter-spacing="2">FABARO</text>
+    <text x="520" y="310" font-size="120" letter-spacing="2">MORSE</text>
+  </g>
+
+  <!-- Morse baseline '... — ...' -->
+  <g transform="translate(520, 360)" fill="#EF4444">
+    <circle cx="0" cy="0" r="10"/>
+    <circle cx="40" cy="0" r="10"/>
+    <circle cx="80" cy="0" r="10"/>
+    <rect x="120" y="-10" width="90" height="20" rx="10"/>
+    <circle cx="240" cy="0" r="10"/>
+    <circle cx="280" cy="0" r="10"/>
+    <circle cx="320" cy="0" r="10"/>
+  </g>
+
+  <!-- 'SOS' with custom O -->
+  <g font-family="Inter, Poppins, Arial, sans-serif" font-weight="800">
+    <text x="950" y="310" font-size="120" fill="#0B1220">S</text>
+    <g transform="translate(1020, 250)">
+      <circle cx="40" cy="40" r="36" fill="none" stroke="#22D3EE" stroke-width="12"/>
+      <circle cx="40" cy="40" r="6" fill="#EF4444"/>
+    </g>
+    <text x="1108" y="310" font-size="120" fill="#0B1220">S</text>
+  </g>
+</svg>
